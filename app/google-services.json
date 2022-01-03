@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026160656534",
+    "project_id": "coordenadasubicacion",
+    "storage_bucket": "coordenadasubicacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026160656534:android:e7139d2f53b90d6ad842b7",
+        "android_client_info": {
+          "package_name": "com.example.ubicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026160656534-94rr4vnn671bhc4vq0508g7eve7hmjvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMcDOORtMBTQwXgZgCKKP6eACui6Pq6YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026160656534-94rr4vnn671bhc4vq0508g7eve7hmjvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/miItem1"
+            android:icon="@drawable/ic_baseline_person_add_24"
+            android:title="@string/ITEM_INGRESAR_CLIENTE_STRING" />
+        <item
+            android:id="@+id/miItem3"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="@string/ITEM_LISTA_DE_CLIENTES_STRING" />
+        <item
+            android:id="@+id/miItem2"
+            android:icon="@drawable/ic_baseline_add_location_alt_24"
+            android:title="CAPTURAR COORDENAS"
+            android:visible="false" />
+
+    </group>
+
+    <group
+        android:id="@+id/third_section"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/ITEM_SALIR_STRING" />
+    </group>
+
+</menu>

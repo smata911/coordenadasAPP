@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PLUGIN MAPS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="EXITO_SUCCES_STRING">IT HAS BEEN SAVED CORRECTLY</string>
+    <string name="NO_HAY_RED_STRING">YOU DO NOT HAVE INTERNET ACCESS</string>
+    <string name="ERROR_GUARDAR_STRING">THERE WAS AN ERROR WHEN SAVING</string>
+    <string name="CAMPO_VACIO_STRING">YOU LEFT ANY FIELD EMPTY</string>
+    <string name="SE_ENVIO_NUB_STRING">All coordinates have been uploaded to the server. PLEASE START THE APP AGAIN</string>
+    <string name="VEFIFICAR_INTERNET_STRING">PLEASE MAKE SURE YOU HAVE A STABLE INTERNET CONNECTION AND THERE ARE COORDINATES. DO YOU WANT TO CONTINUE?</string>
+    <string name="TITULO_VISTA_COORDENADA">COORDINATE LIST</string>
+    <string name="TITULO_VISTA_CLIENTE_STRING">CLIENT LIST</string>
+    <string name="ED_BUSCAR_STRING">Search..</string>
+    <string name="TITULO_INGRESAR_CLIENTE_STRING">ENTER CUSTOMER</string>
+    <string name="TITULO_ESTADO_STRING">STATE</string>
+    <string name="ERROR_SOLICITU_HTTP_STRING">ERROR HTTP REQUEST</string>
+    <string name="TITULO_LOGIN_LICENCIA_STRING">ACQUIRE LICENSE</string>
+    <string name="ERROR_AUTENTICAR">AN ERROR OCCURRED WHEN AUTHENTICATING, CHECK YOUR DATA </string>
+    <string name="TITULO_AUTENTICAR_STRING">Authentication</string>
+    <string name="BIENVENIDA_AUTENTICAR_STRING">WELCOME TO MAPS PLUGIN</string>
+    <string name="PERMISOS_STRING">YOU HAVE TO ACCEPT THE PERMISSIONS</string>
+    <string name="TITULO_COORDENADA_STRING">CAPTURE COORDINATES</string>
+    <string name="TITULO_INICIO_STRING">START</string>
+
+    <string name="TV_IDENTIDAD_STRING">Identity:</string>
+    <string name="TV_NOMBRE_STRING">Full name:</string>
+    <string name="TV_COORDENADA_x_STRING">Coordinate "X"</string>
+    <string name="TV_COORDENADA_Y_STRING">Coordinate "Y"</string>
+    <string name="BTN_GUARDAR_LOCAL_STRING">SAVE LOCAL</string>
+    <string name="TV_TELEFONO_STRING">Telephone:</string>
+    <string name="TV_UBICACION_STRING">Location:</string>
+    <string name="TV_ESTADO_STRING">State:</string>
+    <string name="BTN_GUARDAR_STRING">SAVE</string>
+    <string name="TV_INICIO_STRING">START</string>
+    <string name="ITEM_INGRESAR_CLIENTE_STRING">ENTER CUSTOMER</string>
+    <string name="ITEM_LISTA_DE_CLIENTES_STRING">CLIENT LIST</string>
+    <string name="ITEM_SALIR_STRING">GO OUT</string>
+    <string name="TV_CORREO_STRING">MAIL</string>
+    <string name="TV_CONTRASEÑA_STRING">PASSWORD</string>
+    <string name="BTN_ACCEDER_STRING">ACCESS</string>
+    <string name="BTN_REGISTRAR_STRING">REGISTER</string>
+    <string name="TV_QUE_DESEA_STRING">WHAT DO YOU WANT TO DO?</string>
+    <string name="TV_SELECCIONE_STRING">SELECT</string>
+    <string name="ERROR_MANTENIMIENTO_STRING">CURRENTLY THIS FUNCTION IS IN MAINTENANCE</string>
+
+    <string name="BTN_RECUPERAR_STRING">RECOVER</string>
+
+    <string name="ERROR_FALTACARACTERES_STRING">CHARACTERS STILL MISSING.</string>
+
+    <string name="ERROR_ESPERAR_STRING">PLEASE REGISTER, IF YOU HAVE PROBLEMS, CONTACT TECHNICAL SUPPORT</string>
+
+    <string name="ERROR_INSERTARLICENCIA_STRING">THE LICENSE HAS BEEN VALIDATED.</string>
+
+
+</resources>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >PLUGIN MAPS</string>
+    <string name="open" >Open</string>
+    <string name="close">Close</string>
+    <string name="EXITO_SUCCES_STRING">SE HA GUARDADO CORRECTAMENTE</string>
+    <string name="NO_HAY_RED_STRING">NO TIENES ACCESO A INTERNET</string>
+    <string name="ERROR_GUARDAR_STRING">HUBO UN ERROR AL GUARDAR</string>
+    <string name="CAMPO_VACIO_STRING">DEJASTE ALGÚN CAMPO VACÍO</string>
+    <string name="SE_ENVIO_NUB_STRING">Se ha subido todas las coordenadas al servidor. POR FAVOR, VUELVA INICIAR LA APLICACIÓN</string>
+    <string name="VEFIFICAR_INTERNET_STRING">POR FAVOR ASEGURATE DE CONTAR CON UNA CONEXION A INTERNET ESTABLE Y EXISTAN COORDENADAS.¿QUIERES CONTINUAR?</string>
+    <string name="TITULO_VISTA_COORDENADA">LISTA DE COORDENADAS"</string>
+    <string name="TITULO_VISTA_CLIENTE_STRING">LISTA DE CLIENTES</string>
+    <string name="ED_BUSCAR_STRING">Buscar...</string>
+    <string name="TITULO_INGRESAR_CLIENTE_STRING">INGRESAR CLIENTE</string>
+    <string name="TITULO_ESTADO_STRING">ESTADOS</string>
+    <string name="ERROR_SOLICITU_HTTP_STRING">ERROR SOLICITU HTTP</string>
+    <string name="TITULO_LOGIN_LICENCIA_STRING">ADQUIRIR LICENCIA</string>
+    <string name="ERROR_AUTENTICAR">SE HA PRODUCIDO UN ERROR AL AUTENTICAR,REVISA TUS DATOS</string>
+    <string name="TITULO_AUTENTICAR_STRING">Autenticacion</string>
+    <string name="BIENVENIDA_AUTENTICAR_STRING">BIENVENIDO A MAPS PLUGIN</string>
+    <string name="PERMISOS_STRING">TIENES QUE ACEPTAR LOS PERMISOS</string>
+    <string name="TITULO_COORDENADA_STRING"> CAPTURAR COORDENAS</string>
+    <string name="TITULO_INICIO_STRING">INICIO</string>
+
+
+
+    <string name="TV_IDENTIDAD_STRING">Identidad</string>
+    <string name="TV_NOMBRE_STRING">Nombre Completo</string>
+    <string name="TV_COORDENADA_x_STRING">Coordenada "X"</string>
+    <string name="TV_COORDENADA_Y_STRING">Coordenada "Y"</string>
+    <string name="BTN_GUARDAR_LOCAL_STRING">GUARDAR LOCAL</string>
+    <string name="TV_TELEFONO_STRING">Teléfono:</string>
+    <string name="TV_UBICACION_STRING">Ubicación:</string>
+    <string name="TV_ESTADO_STRING">Estado:</string>
+    <string name="BTN_GUARDAR_STRING">GUARDAR</string>
+    <string name="TV_INICIO_STRING">INICIO</string>
+    <string name="ITEM_INGRESAR_CLIENTE_STRING">INGRESAR CLIENTE</string>
+    <string name="ITEM_LISTA_DE_CLIENTES_STRING">LISTA DE CLIENTES</string>
+    <string name="ITEM_SALIR_STRING">SALIR</string>
+    <string name="TV_CORREO_STRING">CORREO</string>
+    <string name="TV_CONTRASEÑA_STRING">CONTRASEÑA</string>
+    <string name="BTN_ACCEDER_STRING">ACCEDER</string>
+    <string name="BTN_REGISTRAR_STRING">REGISTRAR</string>
+    <string name="TV_QUE_DESEA_STRING">¿QUE DESEA REALIZAR?</string>
+    <string name="TV_SELECCIONE_STRING">SELECCIONE</string>
+    <string name="ERROR_MANTENIMIENTO_STRING">ACTUALMENTE ESTA FUNCIÓN SE ENCUENTRA EN MANTENIMIENTO</string>
+    <string name="BTN_RECUPERAR_STRING">RECUPERAR COORDENADAS</string>
+
+    <string name="ERROR_FALTACARACTERES_STRING">AUN TE FALTAN CARACTERES.</string>
+    <string name="ERROR_ESPERAR_STRING">POR FAVOR REGISTRATE.SI TIENES PROBLEMAS CONTACTATE CON SUPORTE TECNICO</string>
+    <string name="ERROR_INSERTARLICENCIA_STRING">SE HA VALIDADO LA LICENCIA.POR FAVOR VUELVE A INGRESAR A LA APP</string>
+</resources>

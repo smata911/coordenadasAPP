@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".login"
+    tools:ignore="MissingDefaultResource">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarLicencia"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"/>
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/fondofinal"
+    android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            style="@style/inputs_dialog"
+
+            android:layout_width="322dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/TV_CORREO_STRING"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <EditText
+            android:id="@+id/passwordEdt"
+            style="@style/inputs_dialog"
+            android:layout_width="320dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="123dp"
+            android:ems="10"
+            android:hint="@string/TV_CONTRASEÑA_STRING"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnacceder"
+            style="@style/inputs_dialog"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginBottom="9dp"
+            android:text="@string/BTN_ACCEDER_STRING" />
+
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            style="@style/inputs_dialog"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:text="@string/BTN_REGISTRAR_STRING" />
+
+        <Button
+            android:id="@+id/btnExportar"
+            style="@style/inputs_dialog"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:text="@string/BTN_RECUPERAR_STRING"
+            android:visibility="invisible" />
+            android:text="Button" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

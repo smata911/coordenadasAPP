@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".IngresoCliente">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="52dp"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/TV_IDENTIDAD_STRING"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edIdentidad"
+                style="@style/inputs_dialog"
+                android:layout_width="349dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="13"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/TV_NOMBRE_STRING"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edNombre"
+                style="@style/inputs_dialog"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:digits="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+                android:ems="10"
+                android:inputType="textPersonName|textCapCharacters" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/TV_TELEFONO_STRING"
+                android:textSize="18sp" />
+
+            <br.com.sapereaude.maskedEditText.MaskedEditText
+                android:id="@+id/edTelefono"
+                style="@style/inputs_dialog"
+                android:layout_width="358dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:hint="##########"
+                android:inputType="phone"
+                android:typeface="monospace"
+
+                app:allowed_chars="1234567890"
+                app:keep_hint="true"
+                app:mask="+(504) ####-####" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/TV_UBICACION_STRING"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edUbicacion"
+                style="@style/inputs_dialog"
+                android:layout_width="334dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="100" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/TV_ESTADO_STRING"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/edEstado"
+                style="@style/inputs_dialog"
+                android:layout_width="360dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/TV_SELECCIONE_STRING"
+                android:paddingTop="15dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnGuardarCliente"
+                style="@style/inputs_dialog"
+                android:layout_width="135dp"
+                android:layout_marginStart="153dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="154dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/BTN_GUARDAR_STRING"
+                app:layout_constraintBottom_toTopOf="@+id/btnGuardarLocal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edEstado" />
+
+
+            <Button
+                android:id="@+id/btnGuardarLocal"
+                style="@style/inputs_dialog"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginBottom="82dp"
+                android:text="@string/BTN_GUARDAR_LOCAL_STRING"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnGuardarCliente" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
